@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer une nouvelle commande</title>
+</head>
+<body>
+<h1>Créer une nouvelle commande</h1>
+<form action="/commandes" method="post">
+    <label for="numcom">Numéro de commande :</label>
+    <input type="text" id="numcom" name="numcom" required><br><br>
+
+    <label for="datecom">Date de commande :</label>
+    <input type="date" id="datecom" name="datecom" required><br><br>
+
+    <!-- Ajoutez d'autres champs de formulaire selon vos besoins -->
+
+    <input type="submit" value="Créer">
+</form>
+</body>
+</html>
